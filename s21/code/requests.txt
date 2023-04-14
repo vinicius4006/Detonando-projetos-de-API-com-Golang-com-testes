@@ -1,0 +1,17 @@
+POST
+
+curl -i --header "Content-Type: application/json" --request POST --data '{"data" : "save this", "onetime" : false}' http://localhost:8000/api/note
+windows - diferente
+
+onetime
+
+curl -i --header "Content-Type: application/json" --request POST --data '{"data" : "save this one time", "onetime" : true}' http://localhost:8000/api/note
+windows - diferente
+
+
+GET
+
+curl -i  http://localhost:8000/api/note/c6b7a031-294c-4d7c-9df7-8cacff3c98da
+Windows - curl http://localhost:8000/api/note/c6b7a031-294c-4d7c-9df7-8cacff3c98da
+
+//8853eef6-d537-4593-8de5-ffa9cec2535a 24 hours
